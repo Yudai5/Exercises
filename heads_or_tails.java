@@ -16,5 +16,9 @@ class cointoss{
       }
     } 
     System.out.println("Heads: "+heads+", Tails: "+tails);
+    if(heads>tails)
+        System.out.println("You won");
+    else
+        System.out.println("You lost");
   }
 }
